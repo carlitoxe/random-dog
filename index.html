@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doginho App</title>
+</head>
+<body>
+    <h1>Doginho App</h1>
+    <h2 id="error"></h2>
+    
+    <section id="randomDog">
+        <h2>Random Doginho</h2>
+        <button id="reload-button" type="submit">
+            <img class="icon" src="https://htmlacademy.ru/assets/icons/reload-6x-white.png">
+            Reload
+        </button>
+        <div class="random-dog-images">
+ <!--            <article>
+                <img id="random-dog1" class="image-dog" alt="random dog">
+                <button id="btn1" class="save-favorite">Add to favorites</button>
+            </article>
+            <article>
+                <img id="random-dog2" class="image-dog" alt="random dog">
+                <button id="btn2" class="save-favorite">Add to favorites</button>
+            </article>
+            <article>
+                <img id="random-dog3" class="image-dog" alt="random dog">
+                <button id="btn3" class="save-favorite">Add to favorites</button>
+            </article> -->
+        </div>
+    </section>
+
+    <section id="favoritesDogs">
+        <h2 class="favorites-doginhos">Favorites Doginhos</h2>
+        <div class="favorites-dogs-images"></div>
+<!--         <article>
+            <img id="favorite-dog" class="favorite-dog" alt="random dog">
+            <button>Delete from favorites</button>
+        </article> -->
+    </section>
+
+    <section id="uploadingDog">
+        <h2>Upload your doginho</h2>
+
+        <form id="uploadingForm">
+            <label>
+                <div>
+                    <input id="file" type="file" name="file" />
+                </div>
+            </label>
+            <button type="button" id="button-upload">Upload image</button>
+        </form>
+    </section>
+
+    <script src="./main.js"></script> 
+</body>
+</html>

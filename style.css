@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+}
+
+.image-dog {
+    display: block;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.image-dog-favorites {
+    display: block;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.random-dog-images {
+    display: flex;;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.favorites-dogs-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.favorites-doginhos {
+    padding-top: 20px;
+}
+
+#uploadingDog {
+    padding: 0 2rem;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px dashed #ccc;
+    color: #888;
+    border-radius: 5px;
+    padding: 1.5rem 0.2rem;
+    margin: 1rem 0 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+form label div {
+    display: flex;
+    gap: 1rem;
+}
+
+#previewImage {
+    border-radius: 5%;;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: navy;
+    font-size: 1.1rem;
+
+    color: white;
+    padding: 0.65rem 1rem;
+    border: none;
+}
+
+
+.button-delete {
+    background-color: darkred;
+}
+
+#reload-button {
+    height: 50px;
+    background-color: #1abc9c;
+    border-bottom: 2px solid #12ab8d;
+    box-shadow: inset 0 -2px #12ab8d;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.icon {
+   left: 20px;
+   width: 24px;
+   height: 24px;
+   transition: all 0.4s ease-in-out;
+}
+
+#reload-button:hover .icon {
+    transform: rotate(360deg) scale(1.2);
+}
+
+#reload-button:active {
+    top: 1px;
+    box-shadow: none;
+}
