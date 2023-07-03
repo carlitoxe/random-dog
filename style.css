@@ -1,5 +1,11 @@
 body {
     text-align: center;
+    font-family: system-ui,Avenir,Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
 }
 
 .image-dog {
@@ -32,12 +38,8 @@ body {
     flex-wrap: wrap;
 }
 
-.favorites-doginhos {
+.section-title {
     padding-top: 20px;
-}
-
-#uploadingDog {
-    padding: 0 2rem;
 }
 
 form label {
@@ -69,7 +71,6 @@ button {
     border-radius: 0.5rem;
     background-color: navy;
     font-size: 1.1rem;
-
     color: white;
     padding: 0.65rem 1rem;
     border: none;
@@ -103,4 +104,8 @@ button {
 #reload-button:active {
     top: 1px;
     box-shadow: none;
+}
+
+#uploadingDog {
+    padding: 0 2rem;
 }
