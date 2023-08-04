@@ -8,35 +8,25 @@ h1 {
     font-weight: bold;
 }
 
-.image-dog {
+.image-dog, .image-dog-favorites {
     display: block;
-    width: 280px;
-    height: 280px;
+    width: 290px;
+    height: 290px;
     object-fit: cover;
-    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 10px;
     border-radius: 10%;
 }
 
-.image-dog-favorites {
-    display: block;
-    width: 280px;
-    height: 280px;
-    object-fit: cover;
-    padding: 20px;
-    border-radius: 10%;
-}
 
-.random-dog-images {
+.random-dog-images, .favorites-dogs-images {
+    margin-top: 1rem;
     display: flex;;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 3rem;
 }
 
-.favorites-dogs-images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .section-title {
     padding-top: 20px;
@@ -69,23 +59,35 @@ form label div {
 button {
     cursor: pointer;
     border-radius: 0.5rem;
-    background-color: navy;
+    background-color: rgb(2, 115, 245);
     font-size: 1.1rem;
     color: white;
     padding: 0.65rem 1rem;
     border: none;
 }
 
+.button-add:hover {
+    background-color: rgb(0, 89, 190);;
+}
+
+.container-article {
+    background-color: gray;
+}
+
+
 
 .button-delete {
+    background-color: rgb(175, 0, 0);
+}
+
+.button-delete:hover {
     background-color: darkred;
 }
 
 #reload-button {
     height: 50px;
     background-color: #1abc9c;
-    border-bottom: 2px solid #12ab8d;
-    box-shadow: inset 0 -2px #12ab8d;
+
     font-size: 1.2rem;
     text-align: center;
 }
@@ -95,6 +97,10 @@ button {
    width: 24px;
    height: 24px;
    transition: all 0.4s ease-in-out;
+}
+
+#reload-button:hover {
+    background-color: #0c7762;;
 }
 
 #reload-button:hover .icon {
@@ -109,3 +115,15 @@ button {
 #uploadingDog {
     padding: 0 2rem;
 }
+
+.footer {
+    margin-top: 4rem;
+    /* padding-top: 1rem 0; */
+    text-align: center;
+    color: black;
+}
+
+footer p a {
+    color: rgb(2, 115, 245);;
+    text-decoration: none;
+  }

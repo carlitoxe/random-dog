@@ -30,6 +30,7 @@ async function getRandomDog() {
             const article = document.createElement('article');
             const img = document.createElement('img');
             const button = document.createElement('button');
+            button.classList.add('button-add')
             img.src = dog.url;
             img.className = 'image-dog';
             button.textContent = 'Add to favorites'
