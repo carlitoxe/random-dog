@@ -8,6 +8,10 @@ h1 {
     font-weight: bold;
 }
 
+#randomDog {
+    min-height: 455px;
+}
+
 .image-dog, .image-dog-favorites {
     display: block;
     width: 290px;
